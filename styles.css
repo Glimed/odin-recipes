@@ -5,13 +5,15 @@ body {
 
 .recipeLink {
     color: white;
+    text-align: center;
     background-color: black;
-    /* list-style: none; */
+    list-style: none;
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease-in-out;
+    justify-content: center;
 }
 
 .recipeLink:hover {
@@ -46,7 +48,7 @@ h1 {
     padding: 0;
     margin: 0;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
    
 }
 
