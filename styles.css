@@ -10,12 +10,12 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease-in-out;
-    text-align: center;
 }
 
 .recipeLink:hover {
     background-color: #ff7e5f; /* Changes color on hover */
 }
+
 
 
 .recipeLink:hover {
@@ -40,7 +40,7 @@ h1 {
 
 .nav {
     list-style: none;
-    display: flex;
+    display: inline-block;
     padding: 0;
     margin: 0;
     gap: 20px;
@@ -68,4 +68,16 @@ h1 {
     margin: 0 auto;
     border: 5px solid #ff7e5f;
     border-radius: 10px;
+}
+
+.header{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid #ff7e5f;
+    border-radius: 10px;
+    display: inline-block ;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
 }
