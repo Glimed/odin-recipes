@@ -7,8 +7,31 @@ body {
     background-color: black;
     display: inline-block;
     padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.recipeLink:hover {
+    background-color: #ff5733;
 }
 
 h1 {
-    color: blue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding : 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
 }
