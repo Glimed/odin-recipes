@@ -42,10 +42,12 @@ h1 {
 
 .nav {
     list-style: none;
-    display: inline-block;
+    display: flex;
     padding: 0;
     margin: 0;
     gap: 20px;
+    justify-content: center;
+   
 }
 
 .ingredients {
